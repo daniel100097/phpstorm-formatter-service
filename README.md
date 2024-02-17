@@ -1,24 +1,30 @@
 # PhpStorm Formatter as a Service
 
-## usage
+## Usage
+To test the service, execute the following commands:
 
-Example:
+```bash
+curl --request POST \
+  --url http://localhost:8084/aa/file.php \
+  --data '<?php echo     111;'
+```
+
 ```bash
 curl --request POST \
   --url http://localhost:8084/aa/file.js \
-  --data '<?php echo     111'
+  --data 'let a = 1;a=2'
 ```
 
-## install
-
-The following list shows all that you need to run this script (service)
+## Installation
+To set up this service, you need:
 
 - PhpStorm
-- the "live Plugins" Plugin for phpstorm
-- the following groovy script
-- a folder with the name formatter in the root of your project (see script)
+- The "Live Plugins" plugin for PhpStorm
+- The Groovy script provided below
+- A folder named formatter at the root of your project (refer to the script for details)
 
-sry for the syntax etc, i developed this in phpstorm without syntax highlighting or formatting...
+Please note that the development of this tool was done in PhpStorm without syntax highlighting or formatting, and with limited Java knowledge.
+
 
 ```groovy
 import com.sun.net.httpserver.HttpServer
