@@ -1,6 +1,6 @@
 # PhpStorm Formatter as a Service
 
-You need to run the following
+The following list shows all that you need to run this script (service)
 
 - PhpStorm
 - the "live Plugins" Plugin for phpstorm
