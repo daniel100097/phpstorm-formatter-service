@@ -5,7 +5,7 @@ The following list shows all that you need to run this script (service)
 - PhpStorm
 - the "live Plugins" Plugin for phpstorm
 - the following groovy script
-- a folder with the name formatter in the root of you project (see script)
+- a folder with the name formatter in the root of your project (see script)
 
 sry for the syntax etc, i developed this in phpstorm without syntax highlighting or formatting...
 
