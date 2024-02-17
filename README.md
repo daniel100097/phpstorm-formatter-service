@@ -1,5 +1,16 @@
 # PhpStorm Formatter as a Service
 
+## usage
+
+Example:
+```bash
+curl --request POST \
+  --url http://localhost:8084/aa/file.js \
+  --data '<?php echo     111'
+```
+
+## install
+
 The following list shows all that you need to run this script (service)
 
 - PhpStorm
